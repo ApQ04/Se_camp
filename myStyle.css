@@ -1,0 +1,20 @@
+/*
+commment
+*/
+
+h1{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 36pt;
+    
+}
+
+
+.myFont{
+    font-size: 20pt;
+    color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#n{
+    font-size: small;
+}
