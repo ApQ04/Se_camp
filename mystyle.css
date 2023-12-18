@@ -1,49 +1,21 @@
+/*
+commment
+*/
 
-.box{
-    width: 400px;
-    height: 400px;
     color: rgb(255, 255, 255);
-    background-color:rgb(88, 90, 88);
-    text-align: center;
-    border: 5px dashed rgb(0,255,0);
-    padding-top: 10px;
-    margin: 50px 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: x-large;
-    position: relative;
-    font-style: italic;
-    font-weight: 800;
-    background-image: url('https://wallpapercave.com/wp/wp3739470.jpg'); 
-  background-size: cover;
-  background-position: center;
-
+h1{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 36pt;
+    
 }
 
-.box:hover{
-    background-color:rgb(118, 11, 82);
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
-}
 
-.n1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: xx-large;
-    color: brown;
+.myFont{
+    font-size: 20pt;
+    color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
-.box::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #4CAF50;
-    z-index: -1; /* สำคัญ! ให้พื้นหลังนี้ไปอยู่ต่ำกว่าข้อความใน .box */
-  }
-  
-  .box:hover::before {
-    background-color: #760b52;
-  }
+#n{
+    font-size: small;
+}
